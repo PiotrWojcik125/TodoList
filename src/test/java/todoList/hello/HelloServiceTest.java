@@ -34,21 +34,7 @@ public class HelloServiceTest {
         //then
         assertEquals(WELCOME +" "+ name + "!",result);
     }
-   /*
-    @Test
-    public void test_prepareGreeting_textLang_returnsGreetingWithFallbackIdlang() throws Exception {
-        // given
-        LangRepository mockRepository = fallbackIdRepository();
-        HelloService SUT = new HelloService(mockRepository);
 
-        //when
-        String result = SUT.prepareGreeting(null,"abc");
-
-        //then
-        assertEquals(FALLBACK_ID_WELCOME +" "+ HelloService.FALLBACK_NAME + "!",result);
-
-    }
-    */
     @Test
     public void test_prepareGreeting_nullLang_returnsGreetingWithFallbackIdlang() throws Exception {
         // given

@@ -32,8 +32,6 @@ public class HibernateUtil {
         }
     }
 
-
     private HibernateUtil(){
-
     }
 }

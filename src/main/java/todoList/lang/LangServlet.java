@@ -35,7 +35,5 @@ public class LangServlet extends HttpServlet {
         resp.setContentType("application/json;charset=UTF-8");
         mapper.writeValue(resp.getOutputStream(),service.findAll());
 
-       // resp.getWriter().write(service.prepareGreeting(name, lang));
-
     }
 }
