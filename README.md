@@ -5,4 +5,4 @@ Goal of this project was to learn basics of:
 - Hibernate
 - HTTP 
 - Rest
-- JUnit
+- SQL and Databases
